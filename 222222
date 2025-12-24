@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>智能聊天機器人</title>
+    <link rel="stylesheet" href="teamXXX.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <div class="chat-header">智能聊天機器人</div>
+
+    <div class="chat-messages" id="chatMessages"></div>
+
+    <div class="chat-input">
+        <label class="attach-btn">
+            📎
+            <input type="file" id="imageInput" accept="image/png,image/jpeg">
+        </label>
+
+        <input type="text" id="textInput" placeholder="輸入訊息...">
+
+        <button id="sendBtn">⬆︎</button>
+    </div>
+</div>
+
+<script src="teamXXX.js"></script>
+</body>
+</html>
